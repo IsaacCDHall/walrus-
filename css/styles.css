@@ -11,3 +11,19 @@
   text-decoration: underline;
 
 }
+
+.primary-background {
+  background-color: blue;
+}
+
+.secondary-background {
+  background-color: gray;
+}
+
+.success-background {
+  background-color: green;
+}
+
+.warning-background {
+  background-color: yellow
+}
