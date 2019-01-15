@@ -27,3 +27,48 @@
 .warning-background {
   background-color: yellow
 }
+
+
+
+.btn-whiteout  {
+  color: white;
+  background-color: black;
+  border-color: black;
+
+}
+
+.btn-whiteout:hover{
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+
+.btn-blackout{
+  color: black;
+  background-color: white;
+  border-color: black;
+
+}
+
+.btn-blackout:hover  {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+.blackout{
+  background-color:black;
+  color:white;
+}
+
+.whiteout{
+  background-color:white;
+  color:black;
+}
+
+.highlight {
+  background-color: rgba(238, 238, 0, .5);
+  border: 1px solid black;
+
+}

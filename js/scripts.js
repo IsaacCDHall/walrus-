@@ -33,6 +33,23 @@ $(document).ready(function() {
     $("body").addClass("warning-background");
   });
 
+  $("button#blackout").click(function(){
+    $("body").removeClass();
+    $("body").addClass("blackout")
+
+  });
+
+  $("button#whiteout").click(function(){
+    $("body").removeClass();
+    $("body").addClass("whiteout")
+
+  });
+
+  $("p#highlight-para").click(function(){
+    
+    $("p#highlight-para").removeClass();
+    $("p#highlight-para").addClass("highlight");
+  });
 
 
 
